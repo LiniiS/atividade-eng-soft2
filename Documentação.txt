@@ -1,0 +1,68 @@
+Atividade Colaborativa Git - Engenharia de Software 2
+Objetivo: escrever a documentação (negócio/requisitos) e implementar o código de um sistema 
+	      que permite o cálculo da área e perímetro de circunferências (área PI.R^2. perímetro 2.PI.R)
+		  e retângulos (área BASE.ALTURA. perímetro 2.(BASE+ALTURA)).
+
+- Negócio
+	* Assentamento de pisos cerâmicos em áreas externas e internas.
+
+- Atividades de negócio
+
+	* Revestir o piso de ambientes residenciais (externos e internos)
+	* Calcular area e perímetro dos ambientes de trabalho.
+	* Calcular quantidade de peças de cerâmicas utilizadas por ambiente.
+	
+
+- Problema/Oportunidade
+	* O funcionario não dispõe de uma ferramenta simples que permita o cálculo rápido da área
+		a ser trabalhada no assentamento de porcelanatos. Atualmente ele calcula manualmente sendo 
+		passível de erros.
+	
+	- Por que não utilizar uma calculadora/sistema já existente?
+		As calculadoras apresentam muitas funções que podem levar o funcionario ao erro, um
+		novo sistema dedicado não permitiria brecha de fazer o cálculo errado.
+	
+	- O que vocês desejam?
+		Um sistema simples onde permita que o funcionario apenas entre com as medidas e veja o tamanho
+		da área total a ser trabalhada. 
+		(poderia incluir aqui pra mostrar a quantidade de pisos que serão consumidos)
+
+- Stakeholders
+	* Diretor da empresa de Assentamento de pisos
+	* Funcionário
+	* Equipe de desenvolvimento
+
+- Atividades de Negócio
+	* Inserir dimensões dos locais
+	* Calcular quantidade de unidade de piso a ser utilizada
+	* Calcular área do local
+	* Calcular o perímetro do local
+	
+- Regras de negócio
+	* regra 1
+	* regra 2
+	* regra 3
+
+- Glossário
+	* Porcelanato: revestimento cerâmico com baixa absorção de água (próximo de zero).
+	* Azulejo: plaqueta de cerâmica com uma das faces vidradas, também conhecidas como
+			   cerâmicas comuns.
+	* Pastilhas: pequenas peças de cerâmica feitas de vidro, 
+				 porcelanato, mix de pedra/vidro/metal
+				 
+- Requisitos
+
+	HU001 - Inserir dimensões das áreas de trabalho
+	Eu, como funcionário, desejo poder inserir as dimensões da area de trabalho para que seja realizado
+	o cálculo da area a ter o piso assentado em um aplicativo simples de interface fácil uso.
+	
+	HU002 - Calcular quantidade de piso assentado
+	Eu, como diretor da empresa, desejo que a aplicação informe de maneira clara a quantidade de piso
+	necessária para efetuar o trabalho completo, para que se possa fornecer ao funcionário a quantidade
+	ideal de material de trabalho.
+	
+	HU003 - Calcular área/perímetro do local
+	Eu, como diretor, desejo verificar de maneira facil e objetiva as medidas de área e perímetro para
+	que possa oferecer ao cliente o valor do trabalho a ser prestado quando solicitado.
+	
+	
