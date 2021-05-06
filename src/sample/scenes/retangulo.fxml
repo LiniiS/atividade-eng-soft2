@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #406388;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.model.Area">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a5b59c00" height="50.0" layoutX="500.0" layoutY="325.0" stroke="BLACK" strokeType="INSIDE" style="-fx-opacity: 55%;" width="75.0">
+         <effect>
+            <Shadow height="1.0" radius="0.0" width="0.0">
+               <color>
+                  <Color red="0.6470588445663452" green="0.7098039388656616" blue="0.6117647290229797" />
+               </color>
+            </Shadow>
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a5b59c00" height="50.0" layoutX="490.0" layoutY="340.0" stroke="BLACK" strokeType="INSIDE" style="-fx-opacity: 55%;" width="75.0">
+         <effect>
+            <Shadow height="1.0" radius="0.0" width="0.0">
+               <color>
+                  <Color red="0.6470588445663452" green="0.7098039388656616" blue="0.6117647290229797" />
+               </color>
+            </Shadow>
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a5b59c00" height="190.0" layoutX="26.0" layoutY="20.0" stroke="BLACK" strokeType="INSIDE" style="-fx-opacity: 55%;" width="111.0">
+         <effect>
+            <Shadow height="1.0" radius="0.0" width="0.0">
+               <color>
+                  <Color red="0.6470588445663452" green="0.7098039388656616" blue="0.6117647290229797" />
+               </color></Shadow>
+         </effect></Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a5b59c00" height="190.0" layoutX="36.0" layoutY="50.0" stroke="BLACK" strokeType="INSIDE" style="-fx-opacity: 55%;" width="111.0">
+         <effect>
+            <Shadow height="1.0" radius="0.0" width="0.0">
+               <color>
+                  <Color red="0.6470588445663452" green="0.7098039388656616" blue="0.6117647290229797" />
+               </color>
+            </Shadow>
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a5b59c00" height="190.0" layoutX="46.0" layoutY="150.0" stroke="BLACK" strokeType="INSIDE" style="-fx-opacity: 55%;" width="111.0">
+         <effect>
+            <Shadow height="1.0" radius="0.0" width="0.0">
+               <color>
+                  <Color red="0.6470588445663452" green="0.7098039388656616" blue="0.6117647290229797" />
+               </color>
+            </Shadow>
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a5b59c00" height="190.0" layoutX="56.0" layoutY="175.0" stroke="BLACK" strokeType="INSIDE" style="-fx-opacity: 55%;" width="111.0">
+         <effect>
+            <Shadow height="1.0" radius="0.0" width="0.0">
+               <color>
+                  <Color red="0.6470588445663452" green="0.7098039388656616" blue="0.6117647290229797" />
+               </color>
+            </Shadow>
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a5b59c00" height="190.0" layoutX="66.0" layoutY="200.0" stroke="BLACK" strokeType="INSIDE" style="-fx-opacity: 55%;" width="111.0">
+         <effect>
+            <Shadow height="1.0" radius="0.0" width="0.0">
+               <color>
+                  <Color red="0.6470588445663452" green="0.7098039388656616" blue="0.6117647290229797" />
+               </color>
+            </Shadow>
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a5b59c00" height="190.0" layoutX="46.0" layoutY="80.0" stroke="BLACK" strokeType="INSIDE" style="-fx-opacity: 55%;" width="111.0">
+         <effect>
+            <Shadow height="1.0" radius="0.0" width="0.0">
+               <color>
+                  <Color red="0.6470588445663452" green="0.7098039388656616" blue="0.6117647290229797" />
+               </color>
+            </Shadow>
+         </effect>
+      </Rectangle>
+      <VBox alignment="CENTER" layoutX="325.0" layoutY="15.0" prefHeight="200.0" prefWidth="150.0" spacing="15.0">
+         <children>
+            <Label text="Largura" textFill="#d0cdcd">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Label>
+            <TextField fx:id="tfLargura" alignment="CENTER" promptText="ex. 152.0" style="-fx-background-color: #cccccc; -fx-opacity: 55%;">
+               <font>
+                  <Font size="14.0" />
+               </font></TextField>
+            <Label text="Comprimento" textFill="#d0cdcd">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Label>
+            <TextField fx:id="tfComprimento" alignment="CENTER" promptText="ex. 20.5" style="-fx-background-color: #cccccc; -fx-opacity: 55%;">
+               <font>
+                  <Font size="14.0" />
+               </font></TextField>
+         </children></VBox>
+      <Button fx:id="btnCalcAreaRetangulo" contentDisplay="CENTER" layoutX="360.0" layoutY="222.0" mnemonicParsing="false" onAction="#calcularArea" style="-fx-background-color: #293e4f" text="Calcular!" textAlignment="CENTER" textFill="#b8b8b8">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <effect>
+            <Lighting specularExponent="40.0" surfaceScale="2.2">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect></Button>
+      <VBox alignment="CENTER" layoutX="300.0" layoutY="260.0" prefHeight="110.0" prefWidth="200.0" spacing="15.0">
+         <children>
+            <Label fx:id="labelResultadoArea" alignment="CENTER" contentDisplay="CENTER" text="Área Total" textFill="#d0cdcd">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Label>
+            <Label fx:id="labelResultadoPisos" alignment="CENTER" contentDisplay="CENTER" text="Total de Pisos" textAlignment="CENTER" textFill="#d0cdcd">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <Button fx:id="btnHome" contentDisplay="CENTER" layoutX="520.0" layoutY="350.0" mnemonicParsing="false" onAction="#voltarHome" style="-fx-background-color: #293e4f" text="Início" textAlignment="CENTER" textFill="#b8b8b8">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <effect>
+            <Lighting specularExponent="40.0" surfaceScale="2.2">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+      <Label fx:id="labelPerimetro" alignment="CENTER" layoutX="290.0" layoutY="370.0" prefHeight="20.0" prefWidth="210.0" text="Perímetro" textFill="#cccccc" />
+   </children>
+</AnchorPane>
